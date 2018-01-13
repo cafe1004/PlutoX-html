@@ -1,20 +1,20 @@
-# PlutoX-html
+# **PlutoX-html**
 
 ## Features
-HTML5 & CSS3
-Responsive
-Full screen background
+HTML5 & CSS3  
+Responsive   
+One Page theme  
+Full screen background  
 Parallax Scrolling
 
 ## Current Version
-**v0.2.0**
-**What is new in v0.2.0**
-Minify main.css
+**v0.2.0**  
+**What is new in v0.2.0**  
+Minify main.css  
 Adding normalize.css
 
 ## History
-- **Version 0.1.0**
-  - Launch
+- **Version 0.2.0**
   - Adding normalize.css
   - Minify normalize.css
 - **Version 0.1.0**
