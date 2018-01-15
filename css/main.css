@@ -1,116 +1,120 @@
 /*
  * PlutoX-html v0.2.0
- * Updata issue-001 : January 13. 2018
+ * Updata issue-001 : January 15. 2018
  * Created Date : January 12. 2018
  * Author : WooGee
  * Licensed under MIT (https://github.com/cafe1004/PlutoX-html/LICENSE.md)
  */
 
-html,
-body {
-  height: 100%;
-}
+ html,
+ body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+ }
 
-img {
-  max-width: 100%;
-  padding-bottom: 2em;
-}
+ .img-center {
+   max-width: 100%;
+   padding-bottom: 2em;
 
-.full-screen-bg {
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
+ }
+ .header-height {
+   height: 100%;
+ }
+ .full-screen-bg {
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+ }
 
-.header-image {
-  background-image: url('../images/header-bg.jpg');
-}
+ .header-image {
+   background-image: url('../images/header-bg.jpg');
+ }
 
-.section-image {
-  background-image: url('../images/pluto-mobile.jpg');
-}
+ .section-image {
+   background-image: url('../images/pluto-mobile.jpg');
+ }
 
-.head-copy {
-  margin-top: 40%;
-  font-size: 3.5em;
-  text-align: center;
-  color: #fff;
-}
+ .head-copy {
+   margin-top: 20%;
+   font-size: 3.5em;
+   text-align: center;
+   color: #fff;
+ }
 
-.head-subcopy {
-  padding-bottom: .5em;
-  font-size: 1.5em;
-  text-align: center;
-  color: #fff;
-}
+ .head-subcopy {
+   padding-bottom: .5em;
+   font-size: 1.5em;
+   text-align: center;
+   color: #fff;
+ }
 
-.black-bg {
-  background-color: #000;
-  background-color: rgba(0, 0, 0, 0.7);
-}
+ .black-bg {
+   background-color: #000;
+   background-color: rgba(0, 0, 0, 0.7);
+ }
 
-.section-title {
-  margin-top: 1em;
-  padding-top: 2em;
-  font-size: 2.5em;
-  text-align: center;
-  color: #000;
-}
+ .section-title {
+   margin-top: 1em;
+   padding-top: 2em;
+   font-size: 2.5em;
+   text-align: center;
+   color: #000;
+ }
 
-.section-contents {
-  padding-bottom: 3em;
-  font-size: 1.2em;
-  text-align: center;
-  color: #000;
-}
+ .section-contents {
+   padding-bottom: 3em;
+   font-size: 1.2em;
+   text-align: center;
+   color: #000;
+ }
 
-.section-main-dark {
-  margin-top: 1.5em;
-  margin-left: 0.1em;
-  padding: 0.5em;
-  border-radius: .3em;
-  background-color: #868e96;
-  background-color: rgba(0, 0, 0, 0.7);
-  font-size: 1.5em;
-  text-align: center;
-  color: #fff;
-}
+ .section-main-dark {
+   margin-top: 1.5em;
+   margin-left: 0.1em;
+   padding: 0.5em;
+   border-radius: .3em;
+   background-color: #868e96;
+   background-color: rgba(0, 0, 0, 0.7);
+   font-size: 1.5em;
+   text-align: center;
+   color: #fff;
+ }
 
-.section-sub-dark {
-  margin-top: 2.5em;
-  margin-bottom: 2.7em;
-  padding: 1.0em;
-  background-color: #868e96;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: #fff;
-  font-size: 1.0em;
-}
+ .section-sub-dark {
+   margin-top: 2.5em;
+   margin-bottom: 2.7em;
+   padding: 1.0em;
+   background-color: #868e96;
+   background-color: rgba(0, 0, 0, 0.3);
+   color: #fff;
+   font-size: 1.0em;
+ }
 
-.footer-section {
-  padding: 2em;
-  font-size: 0.8em;
-  text-align: center;
-  color: #fff;
-}
+ .footer-section {
+   padding: 2em;
+   font-size: 0.8em;
+   text-align: center;
+   color: #fff;
+ }
 
-/* left article align */
-.lAticleR {
-  text-align: right;
-}
+ /* left article align */
+ .lAticleR {
+   text-align: right;
+ }
 
-/* right article align */
-.rAticleL {
-  text-align: left;
-}
+ /* right article align */
+ .rAticleL {
+   text-align: left;
+ }
 
-/* 일반 section padding */
-.marginHeight {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
+ /* 일반 section padding */
+ .marginHeight {
+   padding-top: 1em;
+   padding-bottom: 1em;
+ }
 
-.bg-dark p {
-  color: #fff;
-}
+ .bg-dark p {
+   color: #fff;
+ }
