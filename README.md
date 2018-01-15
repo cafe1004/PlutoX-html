@@ -8,12 +8,13 @@ Full screen background
 Parallax Scrolling
 
 ## Current Version
-### v0.2.0  
-#### What is new in v0.2.0  
-Minify main.css  
-Adding normalize.css
+### v0.2.1  
+#### What is new in v0.2.1  
+section margin bug fixed
 
 ## History
+- #### Version 0.2.1
+  - section margin bug fixed
 - #### Version 0.2.0
   - Adding normalize.css
   - Minify normalize.css
