@@ -1,7 +1,8 @@
 /*
- * PlutoX-html v0.2.0
- * Updata issue-001 : January 15. 2018
+ * PlutoX-html v0.2.5
+ * Update : January 23. 2018
  * Created Date : January 12. 2018
+ * Base Code : PlutoX-html v0.2.0 (January 15. 2018)
  * Author : WooGee
  * Licensed under MIT (https://github.com/cafe1004/PlutoX-html/LICENSE.md)
  */
@@ -12,11 +13,12 @@
    margin: 0;
    padding: 0;
  }
-
+ img {
+  max-width: 100%;
+}
  .img-center {
    max-width: 100%;
    padding-bottom: 2em;
-
  }
  .header-height {
    height: 100%;
@@ -27,34 +29,28 @@
    background-position: center;
    background-attachment: fixed;
  }
-
  .header-image {
    background-image: url('../images/header-bg.jpg');
  }
-
  .section-image {
    background-image: url('../images/pluto-mobile.jpg');
  }
-
  .head-copy {
    margin-top: 20%;
    font-size: 3.5em;
    text-align: center;
    color: #fff;
  }
-
  .head-subcopy {
    padding-bottom: .5em;
    font-size: 1.5em;
    text-align: center;
    color: #fff;
  }
-
  .black-bg {
    background-color: #000;
    background-color: rgba(0, 0, 0, 0.7);
  }
-
  .section-title {
    margin-top: 1em;
    padding-top: 2em;
@@ -62,14 +58,12 @@
    text-align: center;
    color: #000;
  }
-
  .section-contents {
    padding-bottom: 3em;
    font-size: 1.2em;
    text-align: center;
    color: #000;
  }
-
  .section-main-dark {
    margin-top: 1.5em;
    margin-left: 0.1em;
@@ -81,17 +75,17 @@
    text-align: center;
    color: #fff;
  }
-
  .section-sub-dark {
    margin-top: 2.5em;
    margin-bottom: 2.7em;
-   padding: 1.0em;
+   padding: 3.0em;
    background-color: #868e96;
    background-color: rgba(0, 0, 0, 0.3);
-   color: #fff;
+   line-height: 2.0em;
    font-size: 1.0em;
+   text-align: center;
+   color: #fff;
  }
-
  .footer-section {
    padding: 2em;
    font-size: 0.8em;
@@ -103,18 +97,52 @@
  .lAticleR {
    text-align: right;
  }
-
  /* right article align */
  .rAticleL {
    text-align: left;
  }
-
  /* 일반 section padding */
  .marginHeight {
    padding-top: 1em;
    padding-bottom: 1em;
  }
-
  .bg-dark p {
    color: #fff;
  }
+
+ @media (max-width: 800px) {
+  .head-copy {
+    margin-top: 10%;
+    font-size: 1.8em;
+    text-align: center;
+    color: #fff;
+  }
+  .head-subcopy {
+    padding-bottom: 1.0em;
+    font-size: 1.0em;
+    text-align: center;
+    color: #fff;
+  }
+
+  .mouse-position {
+    position: absolute;
+    top: 80%;
+    left: 46%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .head-copy {
+    margin-top: 40%;
+    font-size: 2.5em;
+    text-align: center;
+    color: #fff;
+  }
+  .head-subcopy {
+    padding-bottom: 2.0em;
+    font-size: 1.0em;
+    text-align: center;
+    color: #fff;
+  }
+}
